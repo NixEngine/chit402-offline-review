@@ -1,0 +1,30 @@
+{
+  "verdict": "OFFLINE_PUBLIC_ATTESTATION_VERIFIED",
+  "receiptId": "xfuel-3155b7d8-4315-44bc-bfdc-bf6b78ff2d15",
+  "kid": "IvFpmC-vPhkY_v0vidsrWVT9uzlE5XWKZgAEOeJTq1Q",
+  "signatureAlgorithm": "ES256",
+  "issuerHistoryHashChain": true,
+  "issuerHistorySignature": true,
+  "historyVersion": 2,
+  "historySeq": 2,
+  "publicAttestationSignature": true,
+  "publicDisplayMatchesSignedClaims": true,
+  "treeHeadSignature": true,
+  "merkleAuditPath": true,
+  "leafIndex": 34,
+  "treeSize": 43,
+  "root": "36213397e111e8bfd2086d592670925e5f8bb00141ce6088a8e5de617da4d2ee",
+  "amountAtomic": "2000",
+  "token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "chain": "base",
+  "paymentTx": "0x731e4fdc70a8dba370c579c23e8520d2edcde052f28abaf3ed26c95c8603116f",
+  "issuedAt": "2026-10-19T02:23:00.000Z",
+  "attestedAt": "2026-10-19T02:24:00.000Z",
+  "networkRequests": 0,
+  "unverified": [
+    "Issuer identity and KMS custody are not proved by ES256",
+    "No independent log consistency proof or globally witnessed checkpoint",
+    "No Base/Solana consensus or payment receipt checked offline",
+    "No private full-receipt claims, payer, prompt, or model output verified"
+  ]
+}

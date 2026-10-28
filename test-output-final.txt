@@ -1,0 +1,18 @@
+✔ captured live public receipt verifies offline (162.2677ms)
+✔ changing signed JWS payload fails its signature (153.5679ms)
+✔ changing unsigned display is detected despite unchanged valid signature (75.2656ms)
+✔ altered Merkle sibling cannot retain the signed root (137.2394ms)
+✔ unsigned original-style shell alone is rejected (364.3684ms)
+✔ changing history data fails the hash chain (271.2459ms)
+✔ fresh paid receipt verifies signature, exact history pin and payload hash offline (261.5049ms)
+✔ fresh receipt signature rejects a changed payment claim (135.1009ms)
+✔ a different issuer-history snapshot cannot satisfy the exact signed pin (149.5366ms)
+✔ public-attestation context cannot substitute for full-receipt context (106.5012ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4628.7947

@@ -1,0 +1,14 @@
+{
+  "schema": "chit402.review.request-receipt-correlation.v1",
+  "quoteTaskId": "xfuel-71387e12-0f2e-49cc-ac99-c595c9af64c0",
+  "fulfilledReceiptId": "xfuel-afd3b3fa-feaa-41b1-8054-b9af5552c7cf",
+  "receiptBodyAndResponseHeaderMatchedBeforeExport": true,
+  "requestBodySha256": "5c22afabbe0ab6447661bc038bf0885bee3f7dc9afafd96cd2461fd879b49c3d",
+  "quotedEndpoint": "https://api.chit402.com/v1/chat/completions",
+  "quoteExpiryMs": 1793145135217,
+  "amountAtomic": "2000",
+  "payee": "0x23f713411c30BBd9A989c9cbC22EB0b55F7f7334",
+  "paymentTx": "0x4d77e1ed30195eb6dc38d610f2fb3a5c3df8ffdaedd9729e0a89fbf48c6d08fc",
+  "rawRequestAndModelOutputIncluded": false,
+  "correlationIsClientObservationNotAnIssuerSignedQuoteMapping": true
+}

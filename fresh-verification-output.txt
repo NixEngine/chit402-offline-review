@@ -1,0 +1,33 @@
+{
+  "verdict": "OFFLINE_FRESH_RECEIPT_SIGNATURE_AND_HASHES_VERIFIED",
+  "receiptId": "xfuel-afd3b3fa-feaa-41b1-8054-b9af5552c7cf",
+  "quoteTaskId": "xfuel-71387e12-0f2e-49cc-ac99-c595c9af64c0",
+  "issuer": "chit402",
+  "kid": "IvFpmC-vPhkY_v0vidsrWVT9uzlE5XWKZgAEOeJTq1Q",
+  "signatureAlgorithm": "ES256",
+  "payloadVersion": 10,
+  "issuedUtc": "2026-10-27T23:50:20.000Z",
+  "issuerSignature": true,
+  "issuerHistorySignature": true,
+  "issuerHistoryHashChain": true,
+  "exactHistorySnapshotPin": true,
+  "historyHash": "b5ecff74a0c5a493268c100ab164b641a5cb2bed8792d0526a997d9d5aa7b07d",
+  "signedCanonicalPayloadHash": true,
+  "payloadHash": "c9f75e7447f769fa6550a644f367b9303b0a7bdc9aed596a9b0e2ebf1b2c57e0",
+  "keyWindow": true,
+  "claimIdPresent": true,
+  "amountAtomic": "2000",
+  "payee": "0x23f713411c30BBd9A989c9cbC22EB0b55F7f7334",
+  "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "paymentRef": "base:0x4d77e1ed30195eb6dc38d610f2fb3a5c3df8ffdaedd9729e0a89fbf48c6d08fc",
+  "outputCommitment": "0xdaa4f5d475c02455977059e29f0bd4c2f7e92e8cfa8026b3dcd2c374e8a520e6",
+  "signedTreeHeadHash": "e23eb23d650e9c2fde41888de2d82c21eaf1cbbcad573faec8f26eac893b4516",
+  "networkRequests": 0,
+  "kmsCustodyIndependentlyVerified": false,
+  "unverified": [
+    "AWS KMS custody is an operator statement, not proven by ES256",
+    "Inference correctness and raw model output are not disclosed or verified",
+    "This offline run does not perform Base consensus, transfer-log, or fresh log-anchor verification",
+    "Quote task ID and fulfilled receipt ID are distinct observed identifiers; no equality assumed"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "chit402.review.evidence-manifest.v1",
+  "originalExampleHttpUtc": "2026-10-27T23:32:09Z",
+  "historyAndJwksHttpUtc": "2026-10-27T23:32:10Z",
+  "publicReceiptHttpUtc": "2026-10-27T23:36:00Z",
+  "freshPaidResponseHttpUtc": "2026-10-27T23:50:20Z",
+  "rawChatContentIncluded": false,
+  "files": [
+    {
+      "file": "public-receipt.json",
+      "bytes": 4709,
+      "sha256": "68c9dca9a0a103ee0bee758e82f6a84bcab4e83e837c5115d0357430887c2215"
+    },
+    {
+      "file": "original-task-example.json",
+      "bytes": 3814,
+      "sha256": "66a6e701601170e5572e3291427d407138456f54d5cf9ccbea05bf95f723245c"
+    },
+    {
+      "file": "issuer-history.json",
+      "bytes": 2233,
+      "sha256": "b5ecff74a0c5a493268c100ab164b641a5cb2bed8792d0526a997d9d5aa7b07d"
+    },
+    {
+      "file": "jwks.json",
+      "bytes": 215,
+      "sha256": "6c439e8c3efd75d18c009738f8c177649e7282ffaec4ba005341657c1c47649c"
+    },
+    {
+      "file": "fresh-receipt-attestation.json",
+      "bytes": 3882,
+      "sha256": "0963c11c4119f7d0e72bb320bf6137cff81cc241bd1b27aba863accda85b7a73"
+    },
+    {
+      "file": "request-receipt-correlation.json",
+      "bytes": 746,
+      "sha256": "081f82a7f3ae42d3f41678fb7aefc93214223e81829b6f1777b30365f9f77d96"
+    }
+  ]
+}
